@@ -1,0 +1,46 @@
+/* Responsive Design for Mobile and Smaller Screens */
+
+@media (max-width: 480px) {
+
+    .staff-title h1 {
+        font-size: 1.5rem;
+        padding-top: 15px;
+    }
+    .staff_info p {
+        font-size: 1rem;
+        padding: 2px 20px 20px 20px;
+    }
+    .staff_card h3 {
+        font-size: 1.1rem;
+    }
+    .staff_card p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .staff-title h1 {
+        font-size: 1.8rem;
+        padding-top: 15px;
+    }
+    .staff_info p {
+        font-size: 1.2rem;
+        padding: 2px 20px 20px 20px;
+    }
+    .image-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .staff_card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .staff_card h3 {
+        font-size: 1.3rem;
+    }
+    .staff_card p {
+        font-size: 1.1rem;
+    }
+}
+
