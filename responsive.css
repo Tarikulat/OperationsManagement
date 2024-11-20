@@ -1,5 +1,7 @@
 /* Responsive Design for Mobile and Smaller Screens */
 
+
+/* section 1 start our staff training  */
 @media (max-width: 480px) {
 
     .head-title h1 {
@@ -20,7 +22,7 @@
         font-size: 1rem;
     }
 
-    /* //section 2 start  */
+    /* section 2 start our working process  */
     .work-image-cards {
         align-items: center;
         flex-direction: column;
@@ -53,6 +55,7 @@
 
 @media (max-width: 768px) {
 
+    /* section 1 start our staff training  */
     .head-title h1 {
         font-size: 1.8rem;
         padding-top: 15px;
@@ -81,7 +84,7 @@
         font-size: 1.1rem;
     }
 
-    /* section 2 start */
+    /* section 2 start our working process  */
     .work-image-cards {
         align-items: center;
         flex-direction: column;

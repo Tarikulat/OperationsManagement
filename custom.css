@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* section 1 start our staff training  */
 .staff-section {
     line-height: 1.6;
     max-width: 1200px;
@@ -82,7 +83,7 @@ body {
 }
 
 
-/* section 2 start here */
+/* section 2 start our working process  */
 .work-process-card {
     z-index: 1;
     overflow: hidden;
@@ -170,3 +171,59 @@ body {
     justify-content: center;
     background-color: white;
 }
+
+/* ........ */
+
+ .section-choose-us {
+     display: flex;
+     padding: 50px;
+     line-height: 1.6;
+     max-width: 1200px;
+     margin: auto;
+ }
+
+ .left-img {
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .left-img img {
+     width: 600px;
+     height: auto;
+ }
+
+ .right-div {
+     flex: 2;
+     display: flex;
+     gap: 20px;
+     justify-content: space-evenly;
+ }
+
+.test {
+     line-height: 1.6;
+     text-decoration: ;
+}
+
+
+
+ .column {
+     flex: 1;
+     padding-left: 50px;
+ }
+
+ .column h3 {
+     margin: 0 0 10px 0;
+ }
+
+ .column p {
+     margin: 0 0 10px 0;
+ }
+
+ .column .line {
+     height: 2px;
+     background-color: #000;
+     margin: 0 auto;
+    
+ }
