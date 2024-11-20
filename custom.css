@@ -7,63 +7,73 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 .staff-section {
-    color: #333;
-    margin: 0 auto;
-    text-align: center;
     line-height: 1.6;
     max-width: 1200px;
     padding-bottom: 30px;
     background-color: fff;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
 }
+
 .container {
     max-width: 1200px;
 }
+
 .head-title h1 {
-    color: #77480a;
     font-weight: 800;
     font-size: 2.5rem;
     margin-bottom: 10px;
     padding: 5px 10px 0px 10px;
+    color: #77480a;
 }
+
 .text_info p {
-    color: #555;
-    text-align: justify;
     font-size: 1rem;
     margin-bottom: 20px;
+    color: #555;
+    text-align: justify;
 }
+
 .image-cards {
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
 }
+
 .staff_card {
+    width: 380px;
+    border-radius: 8px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background: #fff;
     text-align: center;
     border: 1px solid #ddd;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 380px;
-    border-radius: 8px;
-    padding: 0px 20px 20px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .staff_card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .staff_card img {
-    object-fit: cover;
     width: 100%;
     height: 200px;
+    object-fit: cover;
 }
+
 .staff_card h3 {
-    color: #77480a;
     margin: 10px 0;
     font-weight: 700;
     font-size: 1.2rem;
+    color: #77480a;
 }
+
 .staff_card p {
     font-size: 0.9rem;
     padding: 0 10px 20px;
@@ -74,22 +84,23 @@ body {
 
 /* section 2 start here */
 .work-process-card {
-background-image: url('/public/images/working Process.jpeg');
- background-size: cover;
- background-position: center;
- position: relative;
- z-index: 1;
- overflow: hidden;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/public/images/working Process.jpeg');
 }
+
 .work-process-card::before {
-    content: "";
-    position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
     width: 100%;
     height: 100%;
-    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    content: "";
+    box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.7);
+    position: absolute;
     pointer-events: none;
 }
 
@@ -101,26 +112,27 @@ background-image: url('/public/images/working Process.jpeg');
     margin: auto;
     text-align: center;
     position: relative;
-     
+
 }
+
 .work-image-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
     padding-top: 50px;
     padding: 90px 0px 70px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .work-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 250px;
-    text-align: center;
+    border-radius: 10px;
     padding: 0px 20px 20px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
     position: relative;
+    background-color: #fff;
 }
 
 .work-card:hover {
@@ -130,34 +142,31 @@ background-image: url('/public/images/working Process.jpeg');
 
 .work-card img {
     width: 70%;
-    height: auto;
-    border-radius: 5px;
     margin: 10px 0;
     padding-top: 25px;
+    border-radius: 5px;
+    height: auto;
 }
 
 .work-card h3 {
+    margin: 10px 0 0;
     font-size: 1.2rem;
     color: #333;
-    margin: 10px 0 0;
 }
 
 .circle {
-    width: 45px;
-    height: 45px;
-    background-color: white;
-    color: black;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin: 0 auto 10px;
-    position: absolute;
-    left: 100px;
     top: -25px;
-
-
-    /* position: relative; */
+    width: 45px;
+    left: 100px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    color: black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }

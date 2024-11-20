@@ -22,8 +22,8 @@
 
     /* //section 2 start  */
     .work-image-cards {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .work-card {
@@ -33,11 +33,11 @@
     }
 
     .circle {
+        top: -20px;
         width: 35px;
         height: 35px;
         font-size: 1.4rem;
         left: calc(50% - 17.5px);
-        top: -20px;
     }
 
     .work-card img {
@@ -64,8 +64,8 @@
     }
 
     .image-cards {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .staff_card {
@@ -83,8 +83,8 @@
 
     /* section 2 start */
     .work-image-cards {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .work-card {
@@ -94,11 +94,11 @@
     }
 
     .circle {
+        top: -20px;
         width: 35px;
         height: 35px;
         font-size: 1.4rem;
         left: calc(50% - 17.5px);
-        top: -20px;
     }
 
     .work-card img {
