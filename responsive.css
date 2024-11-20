@@ -2,11 +2,11 @@
 
 @media (max-width: 480px) {
 
-    .staff-title h1 {
+    .head-title h1 {
         font-size: 1.5rem;
         padding-top: 15px;
     }
-    .staff_info p {
+    .text_info p {
         font-size: 1rem;
         padding: 2px 20px 20px 20px;
     }
@@ -16,15 +16,27 @@
     .staff_card p {
         font-size: 1rem;
     }
+    /* //section 2 start */
+    .work-card {
+     
+
+
+    }
+  
+    .circle {
+        
+        
+        
+    }
 }
 
 @media (max-width: 768px) {
 
-    .staff-title h1 {
+    .head-title h1 {
         font-size: 1.8rem;
         padding-top: 15px;
     }
-    .staff_info p {
+    .text_info p {
         font-size: 1.2rem;
         padding: 2px 20px 20px 20px;
     }
@@ -42,5 +54,10 @@
     .staff_card p {
         font-size: 1.1rem;
     }
+    /* section 2 start */
+     .work-image-cards {
+         flex-direction: column;
+         align-items: center;
+     }
 }
 
