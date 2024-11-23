@@ -9,18 +9,14 @@ body {
 }
 
 /* section 1 start our staff training  */
-.staff-section {
+.our-staff-section {
     line-height: 1.6;
     max-width: 1200px;
-    padding-bottom: 30px;
+    padding: 50px 0px 0px 0px;
     background-color: fff;
     color: #333;
     margin: 0 auto;
     text-align: center;
-}
-
-.container {
-    max-width: 1200px;
 }
 
 .head-title h1 {
@@ -84,7 +80,7 @@ body {
 
 
 /* section 2 start our working process  */
-.work-process-card {
+.working-process-card {
     z-index: 1;
     overflow: hidden;
     position: relative;
@@ -93,7 +89,7 @@ body {
     background-image: url('/public/images/working Process.jpeg');
 }
 
-.work-process-card::before {
+.working-process-card::before {
     top: 0;
     left: 0;
     z-index: 2;
@@ -105,7 +101,7 @@ body {
     pointer-events: none;
 }
 
-.work-section {
+.our-working-section {
     z-index: 2;
     padding: 20px;
     line-height: 1.6;
@@ -116,7 +112,7 @@ body {
 
 }
 
-.work-image-cards {
+.working-images {
     gap: 20px;
     padding-top: 50px;
     padding: 90px 0px 70px 0px;
@@ -125,7 +121,7 @@ body {
     justify-content: center;
 }
 
-.work-card {
+.working-img-card {
     width: 250px;
     border-radius: 10px;
     padding: 0px 20px 20px 20px;
@@ -136,12 +132,12 @@ body {
     background-color: #fff;
 }
 
-.work-card:hover {
+.working-img-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.work-card img {
+.working-img-card img {
     width: 70%;
     margin: 10px 0;
     padding-top: 25px;
@@ -149,7 +145,7 @@ body {
     height: auto;
 }
 
-.work-card h3 {
+.working-img-card h3 {
     margin: 10px 0 0;
     font-size: 1.2rem;
     color: #333;
@@ -172,66 +168,84 @@ body {
     background-color: white;
 }
 
-/* ........ */
-
- .section-choose-us {
-     display: flex;
-     /* padding: 50px; */
-     line-height: 1.6;
-     max-width: 1200px;
-     margin: auto;
- }
-
- .left-img {
-     flex: 1;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- .left-img img {
-     width: 500px;
-     height: 490px;
- }
-
- .right-div {
-     flex: 2;
-     display: flex;
-     gap: 20px;
-     justify-content: space-evenly;
- }
-
-.text_size {
-    font-size: 13px;
+/* section 3 start why choose us start */
+.why-choose-us-section {
+    padding: 50px;
     line-height: 1.6;
-     letter-spacing: 1px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
 }
 
+.why-choose-us-div {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
 
+.left-div-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* .test {
-     line-height: 1.6;
-     text-decoration: ;
-} */
+.left-div-img img {
+    /* width: 700px; */
+    /* height: 490px; */
+    object-fit: cover;
+    max-width: 500px;
+    height: auto;
+}
 
+.right-div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+}
 
+.sub-title {
+    font-size: 18px;
+    line-height: 0.6;
+    letter-spacing: 3px;
+}
 
- .column_right {
-     flex: 1;
-     padding-left: 50px;
- }
+.details_info {
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
 
- .column_right h3 {
-     margin: 0 0 10px 0;
- }
+.why-choose-us-title {
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    padding-top: 10px;
+}
 
- .column_right p {
-     margin: 0 0 10px 0;
- }
+.column_right {
+    flex: 1;
+    padding-left: 50px;
+}
 
- .column_right .line {
-     height: 2px;
-     background-color: #77480a;
-     margin: 0 auto;
-    
- }
+.column_right h3 {
+    margin: 0 0 10px 0;
+}
+
+.column_right p {
+    margin: 0 0 10px 0;
+}
+
+.column_right .line {
+    height: 2px;
+    background-color: #77480a;
+    margin: 0 auto;
+
+}

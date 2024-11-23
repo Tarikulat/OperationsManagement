@@ -51,6 +51,18 @@
         margin-top: 15px;
     }
 
+    /* section 3 start why choose us */
+      .why-choose-us-section {
+          padding: 30px 10px;
+      }
+
+      .why-choose-us-title {
+          font-size: 14px;
+      }
+
+      .details_info {
+          font-size: 11px;
+      }
 }
 
 @media (max-width: 768px) {
@@ -113,4 +125,29 @@
         margin-top: 15px;
     }
 
+    /* sections 3 start why choose us  */
+     .why-choose-us-div {
+         flex-direction: column;
+     }
+
+     .left-div-img img {
+         width: 100%;
+     }
+
+     .right-div {
+         padding: 20px;
+         text-align: left;
+     }
+
+     .column_right {
+         padding-left: 0;
+     }
+
+     .why-choose-us-title {
+         font-size: 15px;
+     }
+
+     .details_info {
+         font-size: 12px;
+     }
 }
