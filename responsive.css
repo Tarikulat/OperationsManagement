@@ -4,7 +4,7 @@
     .head-title h1 {
         font-size: 1.4rem !important;
         padding-top: 15px;
-         padding: 10px 20px 0px 20px;
+        padding: 10px 20px 0px 20px;
     }
 
     .text_info p {
@@ -24,9 +24,11 @@
     .our-working-section {
         padding-top: 20px;
     }
+
     .working-images {
         padding: 60px 0px 45px 0px;
     }
+
     .working-img-card {
         align-items: center;
         flex-direction: column;
@@ -54,30 +56,32 @@
         font-size: 2rem;
         margin-top: 15px;
     }
-  .circle {
-      width: 30px;
-      height: 30px;
-      font-size: 1rem;
-  }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
     /* section 3 start why choose us */
     .sub-title {
         letter-spacing: 2px;
     }
-      .why-choose-us-section {
-          padding: 30px 10px;
-      }
 
-      .why-choose-us-title {
-          font-size: 14px;
-      }
+    .why-choose-us-section {
+        padding: 30px 10px;
+    }
 
-      .details_info {
-          font-size: 11px;
-      }
+    .why-choose-us-title {
+        font-size: 14px;
+    }
+
+    .details_info {
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 768px) {
-
     /* section 1 start our staff training  */
     .head-title h1 {
         font-size: 1.8rem;
@@ -110,6 +114,7 @@
     .our-working-section {
         padding-top: 35px;
     }
+
     .working-images {
         align-items: center;
         flex-direction: column;
@@ -139,33 +144,32 @@
     }
 
     /* sections 3 start why choose us  */
-     .why-choose-us-div {
-         flex-direction: column;
-     }
+    .why-choose-us-div {
+        flex-direction: column;
+    }
 
-     .left-div-img img {
-         width: 100%;
-     }
+    .left-div-img img {
+        width: 100%;
+    }
 
-     .right-div {
-         padding: 20px;
-         text-align: left;
-     }
+    .right-div {
+        padding: 20px;
+        text-align: left;
+    }
 
-     .column_right {
-         padding-left: 0;
-     }
+    .column_right {
+        padding-left: 0;
+    }
 
-     .why-choose-us-title {
-         font-size: 15px;
-     }
+    .why-choose-us-title {
+        font-size: 15px;
+    }
 
-     .details_info {
-         font-size: 12px;
-     }
+    .details_info {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 1024px) {
-
     
 }
