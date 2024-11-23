@@ -101,9 +101,9 @@ body {
     pointer-events: none;
 }
 
-.our-working-section {
+.working-details {
     z-index: 2;
-    padding: 20px;
+    /* padding: 20px; */
     line-height: 1.6;
     max-width: 1200px;
     margin: auto;
@@ -111,7 +111,9 @@ body {
     position: relative;
 
 }
-
+.our-working-section {
+    padding-top: 50px;
+}
 .working-images {
     gap: 20px;
     padding-top: 50px;

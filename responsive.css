@@ -1,21 +1,19 @@
-/* Responsive Design for Mobile and Smaller Screens */
-
-
 /* section 1 start our staff training  */
-@media (max-width: 480px) {
 
+@media (max-width: 480px) {
     .head-title h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem !important;
         padding-top: 15px;
+         padding: 10px 20px 0px 20px;
     }
 
     .text_info p {
         font-size: 1rem;
-        padding: 2px 20px 20px 20px;
+        padding: 5px 25px 20px 25px;
     }
 
     .staff_card h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .staff_card p {
@@ -23,12 +21,18 @@
     }
 
     /* section 2 start our working process  */
-    .work-image-cards {
+    .our-working-section {
+        padding-top: 20px;
+    }
+    .working-images {
+        padding: 60px 0px 45px 0px;
+    }
+    .working-img-card {
         align-items: center;
         flex-direction: column;
     }
 
-    .work-card {
+    .working-img-card {
         width: 90%;
         padding: 15px;
         margin-bottom: 20px;
@@ -42,16 +46,23 @@
         left: calc(50% - 17.5px);
     }
 
-    .work-card img {
+    .working-img-card img {
         width: 60%;
     }
 
-    .work-card h3 {
-        font-size: 1rem;
+    .working-img-card h3 {
+        font-size: 2rem;
         margin-top: 15px;
     }
-
+  .circle {
+      width: 30px;
+      height: 30px;
+      font-size: 1rem;
+  }
     /* section 3 start why choose us */
+    .sub-title {
+        letter-spacing: 2px;
+    }
       .why-choose-us-section {
           padding: 30px 10px;
       }
@@ -74,8 +85,7 @@
     }
 
     .text_info p {
-        font-size: 1.2rem;
-        padding: 2px 20px 20px 20px;
+        padding: 5px 25px 20px 25px;
     }
 
     .image-cards {
@@ -89,7 +99,7 @@
     }
 
     .staff_card h3 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .staff_card p {
@@ -97,12 +107,15 @@
     }
 
     /* section 2 start our working process  */
-    .work-image-cards {
+    .our-working-section {
+        padding-top: 35px;
+    }
+    .working-images {
         align-items: center;
         flex-direction: column;
     }
 
-    .work-card {
+    .working-img-card {
         width: 90%;
         padding: 15px;
         margin-bottom: 20px;
@@ -116,11 +129,11 @@
         left: calc(50% - 17.5px);
     }
 
-    .work-card img {
+    .working-img-card img {
         width: 60%;
     }
 
-    .work-card h3 {
+    .working-img-card h3 {
         font-size: 1rem;
         margin-top: 15px;
     }
@@ -150,4 +163,9 @@
      .details_info {
          font-size: 12px;
      }
+}
+
+@media (max-width: 1024px) {
+
+    
 }
