@@ -2,13 +2,13 @@
 
 @media (max-width: 480px) {
     .head-title h1 {
-        font-size: 1.4rem !important;
         padding-top: 15px;
+        font-size: 1.4rem !important;
         padding: 10px 20px 0px 20px;
     }
 
     .text_info p {
-        font-size: 1rem;
+        font-size: 13px;
         padding: 5px 25px 20px 25px;
     }
 
@@ -17,7 +17,7 @@
     }
 
     .staff_card p {
-        font-size: 1rem;
+        font-size: 13px;
     }
 
     /* section 2 start our working process  */
@@ -66,6 +66,7 @@
     /* section 3 start why choose us */
     .sub-title {
         letter-spacing: 2px;
+        font-size: 14px;
     }
 
     .why-choose-us-section {
@@ -77,7 +78,7 @@
     }
 
     .details_info {
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 
@@ -107,7 +108,7 @@
     }
 
     .staff_card p {
-        font-size: 1.1rem;
+        font-size: 13px;
     }
 
     /* section 2 start our working process  */
@@ -166,7 +167,7 @@
     }
 
     .details_info {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
