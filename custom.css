@@ -69,11 +69,11 @@ body {
     object-fit: cover;
 }
 
-.staff_card h3 {
+.staff_card .text_h3 {
     margin: 10px 0;
+    font-size: 20px;
     font-weight: 700;
     color: var(--primary-color);
-    font-size: 20px;
 }
 
 .staff_card p {
@@ -115,9 +115,11 @@ body {
     position: relative;
 
 }
+
 .our-working-section {
     padding-top: 50px;
 }
+
 .working-images {
     gap: 20px;
     display: flex;
@@ -151,7 +153,7 @@ body {
     border-radius: 5px;
 }
 
-.working-img-card h3 {
+.working-img-card .text_h3 {
     font-size: 24px;
     margin: 10px 0 0;
     color: #464646;
@@ -245,7 +247,7 @@ body {
     padding-left: 50px;
 }
 
-.column_right h3 {
+.column_right .text_h3 {
     margin: 0 0 10px 0;
 }
 
@@ -260,39 +262,14 @@ body {
 
 }
 
-/* privacy policy page start  */
-
-/* .privacy-policy-container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1200px;
-    box-sizing: border-box;
-    line-height: 1.4;
-}
-
-.privacy-margin {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.text-title-policy {
-    font-size: 2.6rem;
-    font-weight: 400;
-    line-height: 1;
-    padding-bottom: 10px;
-} */
-
-/* Privacy Policy Page Styles */
-
 /* Main Container for Privacy Policy */
 .privacy-policy-container {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    line-height: 1.6;
     max-width: 1200px;
     box-sizing: border-box;
-    line-height: 1.6;
     font-family: Arial, sans-serif;
 }
 
@@ -301,69 +278,61 @@ body {
     margin-bottom: 3rem;
 }
 
-/* Title of the Privacy Policy */
 .text-title-policy {
-    font-size: 2.6rem;
     font-weight: 700;
     line-height: 1.2;
+    color: var(--primary-color);
+    font-size: 2.6rem;
     padding-bottom: 10px;
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
     margin-bottom: 1.5rem;
-}
-
-p {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 1rem;
+    border-bottom: 2px solid #db8d34;
 }
 
 a {
-    color: #3498db;
+    color: var(--primary-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #2980b9;
+    color: #570404;
     text-decoration: underline;
 }
 
-h2 {
+.text_h2 {
     font-size: 2rem;
     font-weight: 600;
-    color: #34495e;
+   color: var(--primary-color);
     margin-top: 2rem;
-    border-bottom: 2px solid #ecf0f1;
     padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ecf0f1;
 }
 
-h3 {
-    font-size: 1.5rem;
+.text_h3 {
     font-weight: 600;
-    color: #34495e;
+    color: var(--primary-color);
+    font-size: 1.5rem;
     margin-top: 1.5rem;
 }
 
-ul {
-    list-style-type: disc;
+.text_ul {
     padding-left: 20px;
+    list-style-type: disc;
     margin-bottom: 1.5rem;
 }
 
-ul li {
+.text_ul li {
     margin-bottom: 0.5rem;
 }
 
 ol {
-    list-style-type: decimal;
     padding-left: 20px;
     margin-bottom: 1.5rem;
+    list-style-type: decimal;
 }
 
 strong {
     font-weight: 700;
-    color: #2c3e50;
 }
 
 input[type="text"],
@@ -372,19 +341,19 @@ textarea {
     width: 100%;
     padding: 0.8rem;
     margin-top: 0.5rem;
-    border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    border: 1px solid #ddd;
 }
 
 button {
-    background-color: #3498db;
+    border: none;
     color: white;
+    cursor: pointer;
     font-size: 1rem;
     padding: 1rem 2rem;
-    border: none;
     border-radius: 4px;
-    cursor: pointer;
+    background-color: #3498db;
     transition: background-color 0.3s ease;
 }
 
@@ -395,19 +364,19 @@ button:hover {
 /* Mobile-friendly Adjustments */
 @media (max-width: 768px) {
     .privacy-policy-container {
-        padding: 0 10px;
+        padding: 0 25px 5px 25px;
     }
 
     .text-title-policy {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
     }
 
-    h2,
-    h3 {
-        font-size: 1.8rem;
+    .text_h2,
+    .text_h3 {
+        font-size: 1.2rem;
     }
 
-    ul {
+    .text_ul {
         padding-left: 15px;
     }
 
@@ -416,32 +385,32 @@ button:hover {
     }
 }
 
-ul li a {
-    color: #2980b9;
+.text_ul li a {
+    color: var(--primary-color);
     font-weight: 600;
 }
 
-h4 {
-    font-size: 1.3rem;
+.text_h4 {
     font-weight: 600;
     color: #34495e;
     margin-top: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
 
 .__cf_email__ {
     font-weight: 700;
-    color: #2c3e50;
+   color: var(--primary-color);
 }
 
-section h2,
-section h3 {
-    color: #2980b9;
+section .text_h2,
+section .text_h3 {
+    color: var(--primary-color);
 }
 
 footer {
     padding-top: 2rem;
-    padding-bottom: 2rem;
     text-align: center;
+    padding-bottom: 2rem;
     background-color: #ecf0f1;
 }
