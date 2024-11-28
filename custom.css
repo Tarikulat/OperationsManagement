@@ -8,7 +8,6 @@
     --primary-color: #a57b5d;
 }
 
-
 body {
     font-family: Arial, sans-serif;
 }
@@ -43,6 +42,7 @@ body {
     font-family: "Open Sans";
     padding-bottom: 25px;
 }
+
 .staff-title {
     font-size: 20px;
     line-height: 25px;
@@ -53,6 +53,7 @@ body {
     padding: 10px 0px 10px 0px;
 
 }
+
 .staff_text {
     font-size: 16px;
     line-height: 25px;
@@ -63,6 +64,7 @@ body {
     justify-content: center;
 
 }
+
 .image-cards {
     gap: 20px;
     display: flex;
@@ -99,11 +101,7 @@ body {
     color: var(--primary-color);
 }
 
-
-
-
 /* section 2 start our working process  */
-
 .text_info_process p {
     font-size: 16px;
     line-height: 24px;
@@ -113,6 +111,7 @@ body {
     text-align: justify;
     padding-bottom: 25px;
 }
+
 .working-process-card {
     z-index: 1;
     overflow: hidden;
@@ -205,7 +204,6 @@ body {
 }
 
 /* section 3 start why choose us start */
-
 .why-choose-us-section {
     margin: auto;
     padding: 50px;
@@ -223,7 +221,6 @@ body {
     line-height: 1.6;
     max-width: 1200px;
     padding-bottom: 50px;
-    /* border: 2px solid; */
 }
 
 .left-div-img {
@@ -234,8 +231,6 @@ body {
 }
 
 .left-div-img img {
-    /* width: 700px; */
-    /* height: 490px; */
     height: auto;
     max-width: 500px;
     object-fit: cover;
@@ -290,7 +285,7 @@ body {
 
 }
 
-/* Main Container for Privacy Policy */
+/* Privacy Policy start */
 .privacy-policy-container {
     width: 100%;
     margin: 0 auto;
@@ -330,7 +325,7 @@ a:hover {
 .text_h2 {
     font-size: 2rem;
     font-weight: 600;
-   color: var(--primary-color);
+    color: var(--primary-color);
     margin-top: 2rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #ecf0f1;
@@ -387,50 +382,4 @@ button {
 
 button:hover {
     background-color: #2980b9;
-}
-
-/* Mobile-friendly Adjustments */
-@media (max-width: 768px) {
-    .privacy-policy-container {
-        padding: 0 25px 5px 25px;
-    }
-
-    .text-title-policy {
-        font-size: 1.5rem;
-    }
-
-    .text_h2,
-    .text_h3 {
-        font-size: 1.2rem;
-    }
-
-    .text_ul {
-        padding-left: 15px;
-    }
-
-    p {
-        font-size: 0.95rem;
-    }
-}
-
-.text_ul li a {
-    color: var(--primary-color);
-    font-weight: 600;
-}
-
-.__cf_email__ {
-    font-weight: 700;
-   color: var(--primary-color);
-}
-
-section .text_h2,
-section .text_h3 {
-    color: var(--primary-color);
-}
-
-footer {
-    padding-top: 2rem;
-    text-align: center;
-    padding-bottom: 2rem;
-    background-color: #ecf0f1;
 }
